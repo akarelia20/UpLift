@@ -11,7 +11,10 @@ backend dependencies
 
 Frontend dependencies
 >> npm install @material-ui/core @material-ui/icons react-copy-to-clipboard simple-peer socket.io-client(EXPIRED)
+
 >> cd client
+
 >> npm install @mui/material @emotion/react @emotion/styled --legacy-peer-deps
+
 >> npm i react-copy-to-clipboard simple-peer socket.io-client
 
