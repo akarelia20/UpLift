@@ -16,5 +16,5 @@ Frontend dependencies
 
 >> npm install @mui/material @emotion/react @emotion/styled --legacy-peer-deps
 
->> npm i react-copy-to-clipboard simple-peer socket.io-client
+>> npm i react-copy-to-clipboard simple-peer socket.io-client @mui/icons-material tss-react
 
