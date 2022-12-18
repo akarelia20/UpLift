@@ -23,4 +23,4 @@ Frontend dependencies
 
 ## Setup
 
-- run npm i && npm start for client and run nom i and nodemon index.js for server side to start the development server
+- "run npm i & npm start" for client and "npm i & nodemon index.js" for server side to start the development server
