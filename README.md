@@ -16,5 +16,11 @@ Frontend dependencies
 
 >> npm install @mui/material @emotion/react @emotion/styled --legacy-peer-deps
 
->> npm i react-copy-to-clipboard simple-peer socket.io-client @mui/icons-material tss-react
+>> npm i react-copy-to-clipboard simple-peer socket.io-client
 
+>> npm i @mui/icons-material tss-react
+
+
+## Setup
+
+- run npm i && npm start for client and run nom i and nodemon index.js for server side to start the development server
