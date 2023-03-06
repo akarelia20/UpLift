@@ -18,7 +18,7 @@ const useStyles = makeStyles()((theme) => ({
         },
     },
     container: {
-        width: '600px',
+        width: '500px',
         margin: '35px 0',
         padding: 0,
         [theme.breakpoints.down('xs')]: {
@@ -32,8 +32,7 @@ const useStyles = makeStyles()((theme) => ({
         padding: 20,
     },
     paper: {
-        padding: '10px 20px',
-        border: '2px solid black',
+        padding: '10px 10px',
     },
 }));
 
@@ -50,12 +49,12 @@ function Options({ children }) {
                     <Grid container className={classes.gridContainer}>
                         <Grid item xs={12} md={6} className={classes.padding}>
                             <Typography gutterBottom variant='h6'>
-                                Accont Info
+                                Your Name
                             </Typography>
                             <TextField label='Name' value={name} onChange={(e) => setName(e.target.value)} fullWidth />
                             {console.log(me, "hi",)}
                             <CopyToClipboard text={me} className={classes.margin}>
-                                <Button variant="contained" color="primary" fullWidth startIcon={<Assignment fontSize='large' />}>
+                                <Button variant="contained" color="primary" fullWidth startIcon={<Assignment fontSize='40'/>}>
                                     Copy your ID
                                 </Button>
                             </CopyToClipboard>
@@ -70,7 +69,7 @@ function Options({ children }) {
                                 <Button
                                     variant="contained"
                                     color="secondary"
-                                    startIcon={<PhoneDisabled fontSize='large' />}
+                                    startIcon={<PhoneDisabled color="white" fontSize='large' />}
                                     onClick={leaveCall}
                                     className={classes.margin}
                                 >
