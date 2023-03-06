@@ -26,4 +26,5 @@ Frontend dependencies
 - "run npm i & npm start" for client and "npm i & nodemon index.js" for server side to start the development server!
 - 
 # 
-[Uploading Screenshot 2023-03-05 at 5.29.05 PM.png…]()
+
+![Screenshot 2023-03-05 at 5 29 05 PM](https://user-images.githubusercontent.com/97579245/223000442-96b942ec-406d-45ab-b532-a9838a26572d.png)
