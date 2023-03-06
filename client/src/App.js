@@ -15,8 +15,7 @@ const useStyles = makeStyles()((theme) => ({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '600px',
-        border: '2px solid black',
+        width: '500px',
 
         [theme.breakpoints.down('xs')]: {
             width: '90%',
@@ -36,7 +35,7 @@ function App() {
     return (
         <div className={classes.wrapper}>
             <AppBar className={classes.appBar} position="static" color="inherit">
-                <Typography variant='h2' align="center" fontFamily={"Raleway"} color="#b388ff"> <Diversity1Icon fontSize='inherit' color='info' align="center"/> UpLift </Typography>
+                <Typography variant='h4' align="center" fontFamily={"Raleway"} color="#b388ff"> <Diversity1Icon fontSize='inherit' color='info' align="center"/> UpLift </Typography>
             </AppBar>
             <VideoPlayer />
             <Options>
