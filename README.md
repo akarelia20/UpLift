@@ -1,5 +1,16 @@
-Application contains
-frontend 
+# UpLift - Real time video-call application
+
+![Screenshot 2023-03-05 at 5 29 05 PM](https://user-images.githubusercontent.com/97579245/223000442-96b942ec-406d-45ab-b532-a9838a26572d.png)
+
+## Application flow 
+
+- Copy ID button -> Copies your socket id that you are connect to the clipboard 
+
+- <b> Ask your friend </b> - to send you his/her Socket id (they can simply click the "copy ID' button and provide that to you via other apps)
+Friend send you his or her Socket ID -> enter that in "id to call" box -> simply make call -> user(reciever) accepts call -> success
+
+
+## Dependencies
 backend -> simpler just with node server
 
 backend dependencies
@@ -24,5 +35,3 @@ Frontend dependencies
 ## Setup
 
 - "run npm i & npm start" for client and "npm i & nodemon index.js" for server side to start the development server!
-
-![Screenshot 2023-03-05 at 5 29 05 PM](https://user-images.githubusercontent.com/97579245/223000442-96b942ec-406d-45ab-b532-a9838a26572d.png)
