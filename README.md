@@ -6,7 +6,7 @@
 
 - Copy ID button -> Copies your socket id that you are connect to the clipboard 
 
-- <b> Ask your friend </b> - to send you his/her Socket id (they can simply click the "copy ID' button and provide that to you via other apps)
+- <b>How to make a call ?</b> -  Ask your friend to send you his/her Socket id (they can simply click the "copy ID' button and provide that to you via other apps)
 Friend send you his or her Socket ID -> enter that in "id to call" box -> simply make call -> user(reciever) accepts call -> success
 
 
@@ -34,4 +34,5 @@ Frontend dependencies
 
 ## Setup
 
-- "run npm i & npm start" for client and "npm i & nodemon index.js" for server side to start the development server!
+- Client - "run npm i & npm start"
+-  "npm i & nodemon index.js" for server side to start the development server!
